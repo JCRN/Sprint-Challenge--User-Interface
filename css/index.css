@@ -93,6 +93,11 @@ div.about {
     margin-bottom: 40px;
 }
 
+.logo {
+    height: 40px;
+    width: 157px; 
+}
+
 /************** NAV ************/
 
 nav {
