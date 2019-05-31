@@ -80,6 +80,18 @@ p {
     margin: 25px 0;
 }
 
+.jumbo-about {
+    margin-bottom: 25px;
+}
+
+div.about {
+    margin: 0 0 20px 20px;
+}
+
+.dotted-line {
+    border: 1px dashed black;
+    margin-bottom: 20px;
+}
 
 /************** NAV ************/
 
@@ -103,7 +115,6 @@ nav a:hover {
     justify-content: space-between;
     margin-bottom: 25px;
 }
-
 
 
 .top-content {
