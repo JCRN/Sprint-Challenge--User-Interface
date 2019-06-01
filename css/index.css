@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-top: 25px;
+    
 }
 ol, ul {
 	list-style: none;
@@ -51,6 +53,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +72,96 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/************** HEADER ************/
+
+.jumbo {
+    margin: 25px 0;
+}
+
+.jumbo-about {
+    margin-bottom: 25px;
+}
+
+div.about {
+    margin: 0 0 20px 20px;
+}
+
+.dashed-line {
+    border: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 40px;
+    width: 157px; 
+}
+
+/************** NAV ************/
+
+nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: black;
+    margin: 25px
+}
+
+nav a:hover {
+	color: crimson;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+/************** MAIN ************/
+
+button {
+    height: 40px;
+    width: 125px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.row {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.col-content {
+    margin-top: 10px;
+}
+
+.col-dashed-line {
+    border: 1px dashed black;
+    margin: 20px 0 40px 0;
+}
+
+.col.left {
+    margin-right: 10px;
+}
+
+.col.right {
+    margin-left: 10px;
 }
 
 .top-content {
@@ -112,6 +205,48 @@ p {
     justify-content: center;
 }
 
+/* ----- Box colors ----- */
+
+#box1 {
+    background-color: #008080;
+}
+
+#box2 {
+    background-color: #ffd700;
+}
+
+#box3 {
+    background-color: #5f9ea0;
+}
+
+#box4{
+    background-color: #ff7f50;
+}
+
+#box5{
+    background-color: #dc143c;
+}
+
+#box6 {
+    background-color: #228b22;
+}
+
+#box7 {
+    background-color: #9932cc;
+}
+
+#box8 {
+    background-color: #ff69b4;
+}
+
+#box9 {
+    background-color: #4b0082;
+}
+
+#box10 {
+    background-color: #1e90ff;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,7 +263,12 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background: black;    
+    height: 50px;
+    display: flex;
+    margin: 40px 0;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 footer nav {
